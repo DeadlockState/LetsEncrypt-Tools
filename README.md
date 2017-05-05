@@ -1,6 +1,6 @@
 # Let's Encrypt Tools
 
-## Let's Encrypt Updater
+## Let's Encrypt Updater ([letsencrypt_updater.sh](https://github.com/Punk--Rock/LetsEncrypt-Tools/blob/master/letsencrypt_updater.sh))
 
 ### Screenshots
 
@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/Punk--Rock/LetsEncrypt-Tools/master/letse
 chmod +x letsencrypt_updater.sh
 ```
 
-## Let's Encrypt auto renew
+## Let's Encrypt auto renew ([letsencrypt_autorenew.sh](https://github.com/Punk--Rock/LetsEncrypt-Tools/blob/master/letsencrypt_autorenew.sh))
 
 ### Screenshots
 
