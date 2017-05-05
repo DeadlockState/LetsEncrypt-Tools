@@ -9,7 +9,7 @@
 ### Installation
 
 ```shell
-wget https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_updater.sh
+wget https://raw.githubusercontent.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_updater.sh
 
 chmod +x letsencrypt_updater.sh
 ```
@@ -23,7 +23,7 @@ chmod +x letsencrypt_updater.sh
 ### Installation
 
 ```shell
-wget https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_autorenew.sh
+wget https://raw.githubusercontent.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_autorenew.sh
 
 chmod +x letsencrypt_autorenew.sh
 ```
