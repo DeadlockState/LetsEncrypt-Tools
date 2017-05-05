@@ -1,14 +1,6 @@
 # Let's Encrypt Tools
 
-## Description
-
-Miscellaneous tools for Let's Encrypt
-
 ## Let's Encrypt Updater
-
-### Description
-
-Just a little updater for Let's Encrypt 
 
 ### Screenshots
 
