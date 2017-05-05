@@ -6,6 +6,10 @@ Miscellaneous tools for Let's Encrypt
 
 ## Let's Encrypt Updater
 
+### Description
+
+Just a little updater for Let's Encrypt 
+
 ### Screenshots
 
 ![screenshot](http://i.imgur.com/0uWsWiR.png)
@@ -13,9 +17,7 @@ Miscellaneous tools for Let's Encrypt
 ### Installation
 
 ```shell
-cd /root/
-
-https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_updater.sh
+wget https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_updater.sh
 
 chmod +x letsencrypt_updater.sh
 ```
@@ -29,9 +31,7 @@ chmod +x letsencrypt_updater.sh
 ### Installation
 
 ```shell
-cd /root/
-
-https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_autorenew.sh
+wget https://github.com/Punk--Rock/LetsEncrypt-Tools/master/letsencrypt_autorenew.sh
 
 chmod +x letsencrypt_autorenew.sh
 ```
