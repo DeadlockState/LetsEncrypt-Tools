@@ -29,8 +29,8 @@ if [ $USER = "root" ] ; then
 	
 	log_path="/var/log/letsencrypt_autorenew.log"
 
-	if [ -d "/opt/letsencrypt/" ]; then
-		letsencrypt_path="/opt/letsencrypt/"
+	if [ -d "/opt/certbot/" ]; then
+		letsencrypt_path="/opt/certbot/"
 	else
 		letsencrypt_path="" # define here your Let's Encrypt path
 	fi
@@ -97,7 +97,7 @@ if [ $USER = "root" ] ; then
 			echo "            "$days_remaining" days remaining before expiration"
 			echo "            Renewing certificate..."
 
-			$letsencrypt_path/letsencrypt-auto certonly $authenticator --force-renewal --rsa-key-size $rsa_key_size --renew-by-default --email $email --text --agree-tos -d $subject""$alternative_dns > $log_path > /dev/null 2>&1
+			$letsencrypt_path/certbot-auto certonly $authenticator --force-renewal --rsa-key-size $rsa_key_size --renew-by-default --email $email --text --agree-tos -d $subject""$alternative_dns > $log_path > /dev/null 2>&1
 			
 			if [ "$?" = 0 ] ; then
 				echo "            "${green}"OK"${nc}
@@ -115,7 +115,7 @@ if [ $USER = "root" ] ; then
 			echo "           "$days_remaining" days remaining before expiration"	
 			echo "           Renewing certificate..."
 
-			$letsencrypt_path/letsencrypt-auto certonly $authenticator --force-renewal --rsa-key-size $rsa_key_size --renew-by-default --email $email --text --agree-tos -d $subject""$alternative_dns > $log_path > /dev/null 2>&1
+			$letsencrypt_path/certbot-auto certonly $authenticator --force-renewal --rsa-key-size $rsa_key_size --renew-by-default --email $email --text --agree-tos -d $subject""$alternative_dns > $log_path > /dev/null 2>&1
 
 			if [ "$?" = 0 ] ; then
 				echo "           "${green}"OK"${nc}
