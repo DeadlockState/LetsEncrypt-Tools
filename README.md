@@ -18,7 +18,7 @@ chmod +x letsencrypt_updater.sh
 
 ### Screenshots
 
-![screenshot](http://i.imgur.com/VIKSZ7D.png)
+![screenshot](http://i.imgur.com/hbxBc1N.png)
 
 ### Installation
 
