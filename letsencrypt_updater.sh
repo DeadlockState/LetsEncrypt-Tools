@@ -41,21 +41,21 @@ if [ $USER = "root" ] ; then
 
 		apt-get install -y git-core > /dev/null
 
-		if [ -d "letsencrypt/" ]; then
+		if [ -d "certbot/" ]; then
 			action="updated"
 			
-			rm -rf letsencrypt/
+			rm -rf certbot/
 			
-			git clone https://github.com/letsencrypt/letsencrypt --quiet
+			git clone https://github.com/certbot/certbot --quiet
 		else
 			action="installed"
 			
-			git clone https://github.com/letsencrypt/letsencrypt --quiet
+			git clone https://github.com/certbot/certbot --quiet
 		fi
 
 		echo ""
 		echo " Let's Encrypt was "$action" to the latest version !"
-		echo " Path : /opt/letsencrypt/"
+		echo " Path : /opt/certbot/"
 		echo ""
 	else
 		echo ""
